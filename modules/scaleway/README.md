@@ -255,6 +255,13 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_admiralty"></a> [admiralty](#input\_admiralty) | Customize admiralty chart, see `admiralty.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argo-cd"></a> [argo-cd](#input\_argo-cd) | Customize argo-cd chart, see `argo-cd.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argo-events"></a> [argo-events](#input\_argo-events) | Customize argo-events chart, see `argo-events.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argo-rollouts"></a> [argo-rollouts](#input\_argo-rollouts) | Customize argo-rollouts chart, see `argo-rollouts.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argo-workflows"></a> [argo-workflows](#input\_argo-workflows) | Customize argo-workflows chart, see `argo-workflows.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argocd-applicationset"></a> [argocd-applicationset](#input\_argocd-applicationset) | Customize argocd-applicationset chart, see `argocd-applicationset.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argocd-image-updater"></a> [argocd-image-updater](#input\_argocd-image-updater) | Customize argocd-image-updater chart, see `argocd-image-updater.tf` for supported values | `any` | `{}` | no |
+| <a name="input_argocd-notifications"></a> [argocd-notifications](#input\_argocd-notifications) | Customize argocd-notifications chart, see `argocd-notifications.tf` for supported values | `any` | `{}` | no |
 | <a name="input_cert-manager"></a> [cert-manager](#input\_cert-manager) | Customize cert-manager chart, see `cert-manager.tf` for supported values | `any` | `{}` | no |
 | <a name="input_cert-manager-csi-driver"></a> [cert-manager-csi-driver](#input\_cert-manager-csi-driver) | Customize cert-manager-csi-driver chart, see `cert-manager.tf` for supported values | `any` | `{}` | no |
 | <a name="input_cert-manager_scaleway_webhook_dns"></a> [cert-manager\_scaleway\_webhook\_dns](#input\_cert-manager\_scaleway\_webhook\_dns) | Scaleway webhook dns customization | `any` | `{}` | no |
@@ -266,7 +273,12 @@ No modules.
 | <a name="input_flux2"></a> [flux2](#input\_flux2) | Customize Flux chart, see `flux2.tf` for supported values | `any` | `{}` | no |
 | <a name="input_helm_defaults"></a> [helm\_defaults](#input\_helm\_defaults) | Customize default Helm behavior | `any` | `{}` | no |
 | <a name="input_ingress-nginx"></a> [ingress-nginx](#input\_ingress-nginx) | Customize ingress-nginx chart, see `nginx-ingress.tf` for supported values | `any` | `{}` | no |
+| <a name="input_istio-base"></a> [istio-base](#input\_istio-base) | Customize istio-base chart, see `istio-base.tf` for supported values | `any` | `{}` | no |
+| <a name="input_istio-egress"></a> [istio-egress](#input\_istio-egress) | Customize istio-egress chart, see `istio-egress.tf` for supported values | `any` | `{}` | no |
+| <a name="input_istio-ingress"></a> [istio-ingress](#input\_istio-ingress) | Customize istio-ingress chart, see `istio-ingress.tf` for supported values | `any` | `{}` | no |
 | <a name="input_istio-operator"></a> [istio-operator](#input\_istio-operator) | Customize istio operator deployment, see `istio_operator.tf` for supported values | `any` | `{}` | no |
+| <a name="input_istiod"></a> [istiod](#input\_istiod) | Customize istiod chart, see `istiod.tf` for supported values | `any` | `{}` | no |
+| <a name="input_jaeger"></a> [jaeger](#input\_jaeger) | Customize jaeger chart, see `jaeger.tf` for supported values | `any` | `{}` | no |
 | <a name="input_k8gb"></a> [k8gb](#input\_k8gb) | Customize k8gb chart, see `k8gb.tf` for supported values | `any` | `{}` | no |
 | <a name="input_kapsule"></a> [kapsule](#input\_kapsule) | Kapsule cluster inputs | `any` | `{}` | no |
 | <a name="input_karma"></a> [karma](#input\_karma) | Customize karma chart, see `karma.tf` for supported values | `any` | `{}` | no |
@@ -292,6 +304,8 @@ No modules.
 | <a name="input_sealed-secrets"></a> [sealed-secrets](#input\_sealed-secrets) | Customize sealed-secrets chart, see `sealed-secrets.tf` for supported values | `any` | `{}` | no |
 | <a name="input_secrets-store-csi-driver"></a> [secrets-store-csi-driver](#input\_secrets-store-csi-driver) | Customize secrets-store-csi-driver chart, see `secrets-store-csi-driver.tf` for supported values | `any` | `{}` | no |
 | <a name="input_strimzi-kafka-operator"></a> [strimzi-kafka-operator](#input\_strimzi-kafka-operator) | Customize strimzi-kafka-operator chart, see `strimzi-kafka-operator.tf` for supported values | `any` | `{}` | no |
+| <a name="input_tekton-pipeline"></a> [tekton-pipeline](#input\_tekton-pipeline) | Customize tekton-pipeline chart, see `tekton-pipeline.tf` for supported values | `any` | `{}` | no |
+| <a name="input_tempo"></a> [tempo](#input\_tempo) | Customize tempo chart, see `tempo.tf` for supported values | `any` | `{}` | no |
 | <a name="input_thanos"></a> [thanos](#input\_thanos) | Customize thanos chart, see `thanos.tf` for supported values | `any` | `{}` | no |
 | <a name="input_thanos-memcached"></a> [thanos-memcached](#input\_thanos-memcached) | Customize thanos chart, see `thanos.tf` for supported values | `any` | `{}` | no |
 | <a name="input_thanos-storegateway"></a> [thanos-storegateway](#input\_thanos-storegateway) | Customize thanos chart, see `thanos.tf` for supported values | `any` | `{}` | no |

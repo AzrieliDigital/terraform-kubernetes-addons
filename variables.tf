@@ -255,3 +255,86 @@ variable "victoria-metrics-k8s-stack" {
   type        = any
   default     = {}
 }
+variable "tempo" {
+  description = "Customize tempo chart, see `tempo.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "jaeger" {
+  description = "Customize jaeger chart, see `jaeger.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argo-cd" {
+  description = "Customize argo-cd chart, see `argo-cd.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argo-events" {
+  description = "Customize argo-events chart, see `argo-events.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argo-rollouts" {
+  description = "Customize argo-rollouts chart, see `argo-rollouts.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argo-workflows" {
+  description = "Customize argo-workflows chart, see `argo-workflows.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argocd-notifications" {
+  description = "Customize argocd-notifications chart, see `argocd-notifications.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argocd-image-updater" {
+  description = "Customize argocd-image-updater chart, see `argocd-image-updater.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "argocd-applicationset" {
+  description = "Customize argocd-applicationset chart, see `argocd-applicationset.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "tekton-pipeline" {
+  description = "Customize tekton-pipeline chart, see `tekton-pipeline.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "istio-base" {
+  description = "Customize istio-base chart, see `istio-base.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "istiod" {
+  description = "Customize istiod chart, see `istiod.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "istio-ingress" {
+  description = "Customize istio-ingress chart, see `istio-ingress.tf` for supported values"
+  type        = any
+  default     = {}
+}
+
+variable "istio-egress" {
+  description = "Customize istio-egress chart, see `istio-egress.tf` for supported values"
+  type        = any
+  default     = {}
+}

@@ -137,3 +137,45 @@ dependencies:
   - name: victoria-metrics-k8s-stack
     version: 0.7.12
     repository: https://victoriametrics.github.io/helm-charts/
+  - name: atlantis
+    version: atlantis-3.19.0
+    repository: https://github.com/runatlantis/helm-charts
+  - name: argo-cd
+    version: 4.5.0
+    repository: https://argoproj.github.io/argo-helm/
+  - name: argo-events
+    version: 1.12.0
+    repository: https://argoproj.github.io/argo-helm/
+  - name: argo-rollouts
+    version: 2.14.0
+    repository: https://argoproj.github.io/argo-helm/
+  - name: argo-workflows
+    version: 0.13.1
+    repository: https://argoproj.github.io/argo-helm/
+  - name: argocd-applicationset
+    version: 1.11.0
+    repository: https://argoproj.github.io/argo-helm/ 
+  - name: argocd-image-updater
+    version: 0.8.0
+    repository: https://argoproj.github.io/argo-helm/
+  - name: argocd-notifications
+    version: 1.8.0
+    repository: https://argoproj.github.io/argo-helm/
+  - name: tekton-pipeline
+    version: 0.27.2
+    repository: https://cdfoundation.github.io/tekton-helm-chart/
+  - name: tempo
+    version: 0.14.2
+    repository: https://grafana.github.io/helm-charts/
+  - name: istio-base
+    version: 1.13.2
+    repository: https://istio-release.storage.googleapis.com/charts
+  - name: istiod
+    version: 1.13.2
+    repository: https://istio-release.storage.googleapis.com/charts
+  - name: istio-ingress
+    version: 1.13.2
+    repository: https://istio-release.storage.googleapis.com/charts
+  - name: istio-egress
+    version: 1.13.2
+    repository: https://istio-release.storage.googleapis.com/charts
