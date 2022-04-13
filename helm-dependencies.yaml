@@ -138,7 +138,7 @@ dependencies:
     version: 0.8.1
     repository: https://victoriametrics.github.io/helm-charts/
   - name: atlantis
-    version: atlantis-3.19.0
+    version: 3.19.0
     repository: https://runatlantis.github.io/helm-charts
   - name: argo-cd
     version: 4.5.0
