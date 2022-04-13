@@ -227,6 +227,7 @@ No modules.
 | <a name="input_argocd-applicationset"></a> [argocd-applicationset](#input\_argocd-applicationset) | Customize argocd-applicationset chart, see `argocd-applicationset.tf` for supported values | `any` | `{}` | no |
 | <a name="input_argocd-image-updater"></a> [argocd-image-updater](#input\_argocd-image-updater) | Customize argocd-image-updater chart, see `argocd-image-updater.tf` for supported values | `any` | `{}` | no |
 | <a name="input_argocd-notifications"></a> [argocd-notifications](#input\_argocd-notifications) | Customize argocd-notifications chart, see `argocd-notifications.tf` for supported values | `any` | `{}` | no |
+| <a name="input_atlantis"></a> [atlantis](#input\_atlantis) | Customize atlantis chart, see `atlantis.tf` for supported values | `any` | `{}` | no |
 | <a name="input_cert-manager"></a> [cert-manager](#input\_cert-manager) | Customize cert-manager chart, see `cert-manager.tf` for supported values | `any` | `{}` | no |
 | <a name="input_cert-manager-csi-driver"></a> [cert-manager-csi-driver](#input\_cert-manager-csi-driver) | Customize cert-manager-csi-driver chart, see `cert-manager.tf` for supported values | `any` | `{}` | no |
 | <a name="input_cluster-autoscaler"></a> [cluster-autoscaler](#input\_cluster-autoscaler) | Customize cluster-autoscaler chart, see `cluster-autoscaler.tf` for supported values | `any` | `{}` | no |

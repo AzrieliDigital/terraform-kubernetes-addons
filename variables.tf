@@ -338,3 +338,9 @@ variable "istio-egress" {
   type        = any
   default     = {}
 }
+
+variable "atlantis" {
+  description = "Customize atlantis chart, see `atlantis.tf` for supported values"
+  type        = any
+  default     = {}
+}
