@@ -51,14 +51,19 @@ resource "kubernetes_config_map" "loki-stack_grafana_ds" {
   data = {
     "datasource.yml" = <<-VALUES
       datasources:
-      - access: proxy
+      - name: Loki
+        type: loki
+        access: proxy
+        url: http://${local.loki-stack["name"]}:3100
         editable: true
         isDefault: false
-        name: Loki
-        orgId: 1
-        type: loki
-        url: http://${local.loki-stack["name"]}:3100
         version: 1
+        jsonData:
+          maxlines: 1000
+          derivedFields:
+            - matcherRegex: "traceID=(\\w+)"
+              name: TraceID
+              url: 'http://${local.loki-stack["name"]}:3100'
       VALUES
   }
 }

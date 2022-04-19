@@ -81,14 +81,14 @@ dependencies:
     repository: https://helm.linkerd.io/edge
     version: 21.12.4
   - name: loki-stack
-    version: 2.6.2
+    version: 2.6.4
     repository: https://grafana.github.io/helm-charts
   - name: loki
     version: 2.11.0
     repository: https://grafana.github.io/helm-charts
   - name: promtail
     version: 4.2.0
-    repository: https://grafana.github.io/helm-charts
+    repository: https://grafana.github.io/helm-charts  
   - name: metrics-server
     version: 3.8.2
     repository: https://kubernetes-sigs.github.io/metrics-server/
