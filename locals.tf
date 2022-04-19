@@ -1,6 +1,6 @@
 locals {
 
-  labels_prefix = var.labels_prefix != null ? var.labels_prefix : "particule.io"
+  labels_prefix = var.labels_prefix != null ? var.labels_prefix : "azrielidigital.com"
 
   helm_defaults_defaults = {
     atomic                = false

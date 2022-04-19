@@ -109,7 +109,7 @@ variable "kyverno" {
 variable "labels_prefix" {
   description = "Custom label prefix used for network policy namespace matching"
   type        = string
-  default     = "particule.io"
+  default     = "azrielidigital.com"
 }
 
 variable "linkerd2" {
