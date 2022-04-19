@@ -31,16 +31,16 @@ User guides, feature documentation and examples are available [here](https://git
 
 | Name | Version |
 |------|---------|
-| <a name="provider_flux"></a> [flux](#provider\_flux) | <= 0.12 |
-| <a name="provider_github"></a> [github](#provider\_github) | ~> 4.0 |
-| <a name="provider_helm"></a> [helm](#provider\_helm) | ~> 2.0 |
-| <a name="provider_http"></a> [http](#provider\_http) | n/a |
-| <a name="provider_kubectl"></a> [kubectl](#provider\_kubectl) | ~> 1.0 |
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | ~> 2.0 |
-| <a name="provider_random"></a> [random](#provider\_random) | n/a |
-| <a name="provider_scaleway"></a> [scaleway](#provider\_scaleway) | >= 2.2.0 |
-| <a name="provider_time"></a> [time](#provider\_time) | n/a |
-| <a name="provider_tls"></a> [tls](#provider\_tls) | n/a |
+| <a name="provider_flux"></a> [flux](#provider\_flux) | 0.12.0 |
+| <a name="provider_github"></a> [github](#provider\_github) | 4.23.0 |
+| <a name="provider_helm"></a> [helm](#provider\_helm) | 2.5.1 |
+| <a name="provider_http"></a> [http](#provider\_http) | 2.1.0 |
+| <a name="provider_kubectl"></a> [kubectl](#provider\_kubectl) | 1.14.0 |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.10.0 |
+| <a name="provider_random"></a> [random](#provider\_random) | 3.1.2 |
+| <a name="provider_scaleway"></a> [scaleway](#provider\_scaleway) | 2.2.0 |
+| <a name="provider_time"></a> [time](#provider\_time) | 0.7.2 |
+| <a name="provider_tls"></a> [tls](#provider\_tls) | 3.3.0 |
 
 ## Modules
 
