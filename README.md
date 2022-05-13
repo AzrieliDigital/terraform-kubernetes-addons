@@ -97,7 +97,6 @@ here](https://github.com/particuleio/terraform-kubernetes-addons/blob/master/.gi
 
 | Name | Version |
 |------|---------|
-<<<<<<< HEAD
 | <a name="provider_flux"></a> [flux](#provider\_flux) | 0.12.0 |
 | <a name="provider_github"></a> [github](#provider\_github) | 4.23.0 |
 | <a name="provider_helm"></a> [helm](#provider\_helm) | 2.5.1 |
@@ -107,17 +106,6 @@ here](https://github.com/particuleio/terraform-kubernetes-addons/blob/master/.gi
 | <a name="provider_random"></a> [random](#provider\_random) | 3.1.2 |
 | <a name="provider_time"></a> [time](#provider\_time) | 0.7.2 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | 3.3.0 |
-=======
-| <a name="provider_flux"></a> [flux](#provider\_flux) | <= 0.14 |
-| <a name="provider_github"></a> [github](#provider\_github) | ~> 4.0 |
-| <a name="provider_helm"></a> [helm](#provider\_helm) | ~> 2.0 |
-| <a name="provider_http"></a> [http](#provider\_http) | n/a |
-| <a name="provider_kubectl"></a> [kubectl](#provider\_kubectl) | ~> 1.0 |
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | ~> 2.0 |
-| <a name="provider_random"></a> [random](#provider\_random) | n/a |
-| <a name="provider_time"></a> [time](#provider\_time) | n/a |
-| <a name="provider_tls"></a> [tls](#provider\_tls) | n/a |
->>>>>>> upstream/main
 
 ## Modules
 
