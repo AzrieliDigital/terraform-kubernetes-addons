@@ -30,7 +30,7 @@ dependencies:
     version: v1.8.0
     repository: https://charts.jetstack.io
   - name: cert-manager-csi-driver
-    version: v0.2.1
+    version: v0.3.0
     repository: https://charts.jetstack.io
   - name: cluster-autoscaler
     version: 9.18.1
@@ -93,13 +93,13 @@ dependencies:
     version: 3.8.2
     repository: https://kubernetes-sigs.github.io/metrics-server/
   - name: node-problem-detector
-    version: 2.2.1
+    version: 2.2.2
     repository: https://charts.deliveryhero.io/
   - name: prometheus-adapter
     version: 3.3.1
     repository: https://prometheus-community.github.io/helm-charts
   - name: prometheus-cloudwatch-exporter
-    version: 0.18.0
+    version: 0.19.0
     repository: https://prometheus-community.github.io/helm-charts
   - name: prometheus-blackbox-exporter
     version: 5.8.1
