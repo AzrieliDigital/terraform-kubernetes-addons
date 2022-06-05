@@ -26,7 +26,7 @@ resource "kubernetes_namespace" "tigera-operator" {
   metadata {
     labels = {
       name                               = local.tigera-operator["namespace"]
-      "${local.labels_prefix}/component" = "tigera"
+      "${local.labels_prefix}/component" = "tigera-operator"
     }
 
     name = local.tigera-operator["namespace"]
